@@ -258,10 +258,6 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     padding: 120px 0;
 }
 
-.team-item {
-    background-color: #FFFFFF
-}
-
 .team-header {
     margin-bottom: 72px;
     font-weight: 700;
@@ -280,6 +276,8 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 .team-item {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
